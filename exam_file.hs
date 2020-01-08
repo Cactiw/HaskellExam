@@ -16,4 +16,5 @@ isOneSubTree (BiTree v Empty _) = True
 isOneSubTree (BiTree v _ Empty) = True
 isOneSubTree (BiTree _ _ _) = False
 
-main = print (isPosVert (BiTree (-1) (Leaf 3) Empty))
+-- main = print (isPosVert (BiTree (-1) (Leaf 3) Empty))
+main = print (isPosVert (Leaf 3))
